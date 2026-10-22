@@ -32,7 +32,7 @@ export const HeroSpotlight: React.FC<HeroSpotlightProps> = ({
       >
         <img 
           src={game.heroBanner} 
-          alt={game.title} 
+          alt={game.heroBannerAlt || `Cinematic poster showcase for ${game.title} editorial review`} 
           className="hidden" 
           onError={() => setImageFailed(true)} 
         />

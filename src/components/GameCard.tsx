@@ -39,7 +39,7 @@ export const GameCard: React.FC<GameCardProps> = ({
         ) : (
           <img 
             src={game.coverImage} 
-            alt={`${game.title} official poster artwork`}
+            alt={game.coverAlt || `Official cover poster art for ${game.title} game review`}
             referrerPolicy="no-referrer"
             onLoad={() => setImageLoaded(true)}
             onError={() => setImageError(true)}
@@ -73,7 +73,12 @@ export const GameCard: React.FC<GameCardProps> = ({
           </div>
 
           <h3 className="font-display font-bold text-lg text-white group-hover:text-cyan-300 transition-colors line-clamp-1">
-            {game.title}
+            <button 
+              onClick={() => onReadReview(game)}
+              className="text-left hover:underline focus:outline-none"
+            >
+              {game.title}
+            </button>
           </h3>
 
           <p className="text-xs text-slate-300 mt-2 line-clamp-2 leading-relaxed">
@@ -96,14 +101,14 @@ export const GameCard: React.FC<GameCardProps> = ({
               onClick={() => onReadReview(game)}
               className="text-xs font-medium text-slate-200 hover:text-white bg-slate-800/80 hover:bg-slate-700/80 px-3 py-1.5 rounded-lg border border-white/10 transition-colors active:scale-[0.98]"
             >
-              Editorial
+              Read Review
             </button>
             <button 
               onClick={() => onRateGame(game.id)}
               className="flex items-center gap-1 text-xs font-semibold text-cyan-300 hover:text-white bg-cyan-950/60 hover:bg-cyan-900/60 px-3 py-1.5 rounded-lg border border-cyan-500/30 transition-colors active:scale-[0.98]"
             >
               <Star className="w-3 h-3 text-cyan-400 fill-cyan-400/30" />
-              <span>Rate</span>
+              <span>Rate Game</span>
             </button>
           </div>
         </div>

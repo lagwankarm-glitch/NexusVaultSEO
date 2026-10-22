@@ -19,7 +19,9 @@ export const INITIAL_GAMES: Game[] = [
       performance: 9.2,
     },
     coverImage: 'https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/2138330/header.jpg',
+    coverAlt: 'Official poster art for Cyberpunk 2077: Phantom Liberty video game',
     heroBanner: 'https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/2138330/ss_5c4b46c61d7d1d5903835a68eac6582b4e62367f.1920x1080.jpg',
+    heroBannerAlt: 'Cinematic panoramic screenshot of Cyberpunk 2077 Dogtown district at night',
     summary: 'A high-stakes spy thriller set in the claustrophobic, lawless combat zone of Dogtown. Overhauls police response, cyberware progression, vehicular combat, and delivers an unforgettable narrative featuring Idris Elba.',
     fullReview: `Phantom Liberty is the definitive realization of what Cyberpunk 2077 was destined to be. CD Projekt RED has crafted a gripping espionage narrative that thrusts V and Johnny Silverhand into the perilous orbit of FIA sleeper agent Solomon Reed (played with immense gravity by Idris Elba) and President Rosalind Myers.
 
@@ -37,7 +39,29 @@ Coupled with the systemic 2.0 overhaul—which reconstructed skill trees, introd
       'Minor driving physics hiccups in congested Dogtown alleys'
     ],
     performanceNotes: 'Runs at rock-solid 60 FPS in Performance Mode on PS5/XSX. PC benefits greatly from DLSS 3.5 Ray Reconstruction.',
-    playtimeEstimate: '25 – 35 Hours'
+    playtimeEstimate: '25 – 35 Hours',
+    seo: {
+      metaTitle: 'Cyberpunk 2077 Review: Phantom Liberty – Is It Worth It?',
+      metaDescription: "Read our Cyberpunk 2077: Phantom Liberty review exploring Dogtown story, combat perks, and Idris Elba's role. See verified critic scores before you buy.",
+      h1Heading: 'Cyberpunk 2077 Review: Phantom Liberty & Dogtown Breakdown',
+      h2Heading: 'Cyberpunk 2077 Gameplay: Is Phantom Liberty Worth Playing in 2026?',
+      h3Heading: 'Cyberpunk 2077 Cyberware & Relic Perks: How Does Combat Evolve?',
+      targetKeyword: 'Cyberpunk 2077 Review',
+      canonicalSlug: '/review/cyberpunk-phantom-liberty',
+      searchSnippetCta: 'See verified critic scores before you buy.',
+      aeoQuestions: [
+        {
+          question: 'Is Cyberpunk 2077: Phantom Liberty worth playing if you never finished the original story?',
+          answer: 'Yes. Phantom Liberty completely revitalizes Cyberpunk 2077 with restructured cyberware progression, high-octane vehicle combat, and an independent spy-thriller storyline set in the lawless walled district of Dogtown. You can jump directly into the expansion using a pre-configured character, enjoying a focused 30-hour campaign starring Idris Elba with zero obligation to replay early base game segments.',
+          targetIntent: 'Purchase Consideration & Barrier-to-Entry Query'
+        },
+        {
+          question: 'How long does it take to beat Cyberpunk 2077: Phantom Liberty?',
+          answer: 'Beating the main espionage narrative takes between 18 and 22 hours for focused playthroughs. Players pursuing every Dogtown fixer gig, Relic data terminal, vehicle drop delivery, and unlocking all four narrative endings will spend between 30 and 38 hours of gameplay.',
+          targetIntent: 'Playtime & Completionist Time Estimation Query'
+        }
+      ]
+    }
   },
   {
     id: 'elden-ring-erdtree',
@@ -57,7 +81,9 @@ Coupled with the systemic 2.0 overhaul—which reconstructed skill trees, introd
       performance: 9.4,
     },
     coverImage: 'https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/2778580/header.jpg',
+    coverAlt: 'Official game capsule poster for Elden Ring: Shadow of the Erdtree',
     heroBanner: 'https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/2778580/ss_96ffdd7a8cffcc1858a2a5ad6c04f9812984592a.1920x1080.jpg',
+    heroBannerAlt: 'Miquella looking towards the burning Scadutree in the Realm of Shadow',
     summary: 'Guided by Empyrean Miquella, players step into the Realm of Shadow—a clandestine continent dripping with ancient tragedy, punishing bosses, and brilliant new weapon categories.',
     fullReview: `FromSoftware has defied expectations once again. Rather than providing a standard bite-sized DLC, Shadow of the Erdtree is functionally the size of a standalone full-budget sequel. The Realm of Shadow is an interconnected topological puzzle, where seemingly inaccessible ravines and floating ruins reveal subterranean cathedrals through sheer exploration curiosity.
 
@@ -75,7 +101,29 @@ Boss encounters like Messmer the Impaler and Rellana, Twin Moon Knight, showcase
       'Scadutree fragment collecting is essentially mandatory to survive'
     ],
     performanceNotes: 'Performance mode maintains consistent 60 FPS on current-gen consoles. PC stutters remain minimal after latest patches.',
-    playtimeEstimate: '40 – 60 Hours'
+    playtimeEstimate: '40 – 60 Hours',
+    seo: {
+      metaTitle: "Elden Ring Erdtree Review: FromSoftware's Ultimate DLC",
+      metaDescription: 'Explore our Elden Ring: Shadow of the Erdtree review covering map scale, brutal boss fights, and new weapons. Discover why it scores 9.8 before starting.',
+      h1Heading: 'Elden Ring Erdtree Review: Realm of Shadow Bosses & Map Analysis',
+      h2Heading: 'Elden Ring Erdtree Boss Fights: How Punishing Is the Shadow Realm?',
+      h3Heading: 'Elden Ring Erdtree Exploration: Why Scadutree Blessings Are Essential',
+      targetKeyword: 'Elden Ring Erdtree Review',
+      canonicalSlug: '/review/elden-ring-erdtree',
+      searchSnippetCta: 'Discover why it scores 9.8 before starting.',
+      aeoQuestions: [
+        {
+          question: 'What character level should you be before entering Elden Ring: Shadow of the Erdtree?',
+          answer: 'Players should enter the Realm of Shadow at character level 120 to 150 with at least 50 to 60 Vigor and maximum +25 regular (+10 Somber) weapons. However, raw character level matters far less than discovering Scadutree Fragments within the DLC, which grant percentage-based damage reduction and attack output boosts specifically calibrated for Shadow of the Erdtree bosses.',
+          targetIntent: 'Level Requirement & Difficulty Preparation Query'
+        },
+        {
+          question: 'How large is the Elden Ring: Shadow of the Erdtree map compared to the base game?',
+          answer: 'The Realm of Shadow equals the physical landmass of Limgrave, Liurnia, and Caelid combined, but features substantially higher vertical density. Multi-tiered ravines, concealed river descents, subterranean abyssal forests, and towering mountain keeps create an interconnected 3D labyrinth that feels vastly larger in practice than its 2D map indicates.',
+          targetIntent: 'Map Scale & Exploration Scope Query'
+        }
+      ]
+    }
   },
   {
     id: 'hades-2',
@@ -95,7 +143,9 @@ Boss encounters like Messmer the Impaler and Rellana, Twin Moon Knight, showcase
       performance: 9.9,
     },
     coverImage: 'https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/1145350/header.jpg',
+    coverAlt: 'Official Steam store cover art for Hades II showing Princess Melinoë',
     heroBanner: 'https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/1145350/ss_78f1681a28a3f55ba6279f64bf633d7350aa1e64.1920x1080.jpg',
+    heroBannerAlt: 'Melinoë channeling nocturnal witchcraft against Underworld shades',
     summary: 'Battle beyond the Underworld using dark sorcery as Melinoë, Princess of the Underworld, facing the Titan of Time in a spellbinding, responsive roguelite experience.',
     fullReview: `Sequels are notoriously treacherous territory for genre-defining indie darlings, yet Supergiant Games has managed to expand and enrich Hades without diluting its magic. As Melinoë, sister to Zagreus, combat transitions from pure twitch-dash reflexes to calculated spellcasting and area control.
 
@@ -113,7 +163,29 @@ Jen Zee's hand-painted mythological character designs are as lustrous as ever, w
       'Certain elemental boons currently overshadow other builds'
     ],
     performanceNotes: 'Flawlessly optimized. Runs at native 4K 144Hz with negligible system load.',
-    playtimeEstimate: '50 – 80 Hours'
+    playtimeEstimate: '50 – 80 Hours',
+    seo: {
+      metaTitle: "Hades 2 Review: Melinoe's Witchcraft Rogue-lite Verdict",
+      metaDescription: "Discover our in-depth Hades 2 review detailing Melinoë's witchcraft combat, Olympian boons, and performance. Read community verdicts to master every run.",
+      h1Heading: "Hades 2 Review: Melinoe's Witchcraft Mechanics & Underworld Odyssey",
+      h2Heading: "Hades 2 Combat Mechanics: How Melinoe Differs from Zagreus",
+      h3Heading: "Hades 2 Omega Casts: How Magic Boons Reshape Every Escape Attempt",
+      targetKeyword: 'Hades 2 Review',
+      canonicalSlug: '/review/hades-2',
+      searchSnippetCta: 'Read community verdicts to master every run.',
+      aeoQuestions: [
+        {
+          question: 'How does combat in Hades 2 differ from the original Hades with Zagreus?',
+          answer: 'Combat in Hades 2 evolves from Zagreus\'s twitch-reflex dash striking into strategic crowd control and magical area denial. Melinoë channels Magick to charge Omega versions of her basic Attacks, Specials, and Casts. Rather than a projectile, her Cast lays a circular binding rune that immobilizes foes, demanding calculated spatial management across subterranean and surface routes.',
+          targetIntent: 'Combat Comparison & Gameplay Evolution Query'
+        },
+        {
+          question: 'Do you need to play Hades 1 before playing Hades 2?',
+          answer: 'No prior playthrough is required. Hades 2 features an independent storyline where Melinoë seeks to liberate her family from Chronos, the Titan of Time. An extensive in-game Book of Shadows codex explains Greek mythological pantheons and character histories as you encounter them, making it welcoming for newcomers.',
+          targetIntent: 'Story Prerequisite & Franchise Entry Query'
+        }
+      ]
+    }
   },
   {
     id: 'helldivers-2',
@@ -133,7 +205,9 @@ Jen Zee's hand-painted mythological character designs are as lustrous as ever, w
       performance: 8.7,
     },
     coverImage: 'https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/553850/header.jpg',
+    coverAlt: 'Official cover poster of Helldivers 2 soldiers deploying on alien planet',
     heroBanner: 'https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/553850/ss_49e89d81b9e28dc5676722d3b2ce2dc19f448c34.1920x1080.jpg',
+    heroBannerAlt: 'Helldivers squad calling down orbital strike stratagem against Terminid swarm',
     summary: 'Join the Helldivers and fight for freedom across a hostile galaxy in a fast, frantic, and ferocious third-person cooperative extraction shooter.',
     fullReview: `HELLDIVERS 2 achieved the impossible: making friendly fire and catastrophic blunders the funniest part of an intense tactical shooter. Shifting from the top-down perspective of the 2015 original to an over-the-shoulder third-person camera was an inspired choice that immerses players directly in the visceral mud, blood, and laser fire of galactic warfare.
 
@@ -151,7 +225,29 @@ Crucially, the live-service Galactic War meta—steered dynamically by Arrowhead
       'Solo play is significantly less viable and lacks team revival mechanics'
     ],
     performanceNotes: 'Cross-play runs cleanly at 60 FPS on PS5. PC requires balanced settings for stable framerates on heavy swarm waves.',
-    playtimeEstimate: '60 – 100+ Hours'
+    playtimeEstimate: '60 – 100+ Hours',
+    seo: {
+      metaTitle: 'Helldivers 2 Review: Best Co-op Shooter of the Year?',
+      metaDescription: "Our Helldivers 2 review breaks down squad combat, galactic war mechanics, and orbital stratagems. Find out if it is worth your squad's time before jumping in.",
+      h1Heading: 'Helldivers 2 Review: Co-op Squad Tactics & Galactic War Verdict',
+      h2Heading: 'Helldivers 2 Multiplayer Combat: Stratagems, Armor & Friendly Fire',
+      h3Heading: 'Helldivers 2 Galactic Meta: Defending Super Earth Against Bug Swarms',
+      targetKeyword: 'Helldivers 2 Review',
+      canonicalSlug: '/review/helldivers-2',
+      searchSnippetCta: "Find out if it is worth your squad's time before jumping in.",
+      aeoQuestions: [
+        {
+          question: 'Can you play Helldivers 2 solo without matchmaking?',
+          answer: 'While Helldivers 2 allows solo deployments by toggling privacy settings to Friends Only, the experience is explicitly tuned for cooperative squads. Low difficulty tiers (1–3) are manageable alone, but suicide and helldive difficulty levels (7–10) deploy armored chargers, bile titans, and automaton striders that require cross-fire, shared ammunition backpacks, and synchronized orbital stratagems.',
+          targetIntent: 'Solo vs Squad Viability Query'
+        },
+        {
+          question: 'How does the ongoing Galactic War and Major Order system operate?',
+          answer: 'The Galactic War is a persistent online campaign orchestrated by a human Game Master at Arrowhead. Every mission completed adds liberation points to targeted planetary sectors. Weekly Major Orders issue high-priority sector defenses that reward thousands of Requisition Slips and Medals if community-wide objectives succeed before the clock expires.',
+          targetIntent: 'Live Service Campaign & Progression Query'
+        }
+      ]
+    }
   },
   {
     id: 'baldurs-gate-3',
@@ -171,7 +267,9 @@ Crucially, the live-service Galactic War meta—steered dynamically by Arrowhead
       performance: 9.3,
     },
     coverImage: 'https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/1086940/header.jpg',
+    coverAlt: "Official key artwork poster for Baldur's Gate 3 featuring core companions",
     heroBanner: 'https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/1086940/ss_91d4e022cf3315a6b0cfa0b3a165b4526d1fa781.1920x1080.jpg',
+    heroBannerAlt: "Baldur's Gate 3 adventuring party standing over burning nautiloid wreckage",
     summary: 'Gather your party and return to the Forgotten Realms in a tale of fellowship, betrayal, sacrifice, survival, and the lure of absolute power.',
     fullReview: `Larian Studios did not just adapt Dungeons & Dragons Fifth Edition; they set a high-water mark for video game storytelling and emergent agency that will be studied for decades. From the very opening nautiloid crash to the sprawling urban intrigue of Baldur's Gate proper, player choice permeates every square inch of the world.
 
@@ -189,7 +287,29 @@ The companions—from Neil Newbon's heart-wrenching, theatrical portrayal of Ast
       'Act 3 city density can stress CPU processing on older hardware'
     ],
     performanceNotes: 'FSR / DLSS implementation is top-notch. High-end PC and consoles maintain smooth turn resolutions.',
-    playtimeEstimate: '90 – 140 Hours'
+    playtimeEstimate: '90 – 140 Hours',
+    seo: {
+      metaTitle: "Baldur's Gate 3 Review: The Gold Standard RPG Rated",
+      metaDescription: 'Dive into our Baldur\'s Gate 3 review examining companion quests, D&D 5e combat choices, and replayability. Explore full ratings before creating your hero.',
+      h1Heading: "Baldur's Gate 3 Review: D&D 5e Mechanics & Companion Storylines",
+      h2Heading: 'Baldur\'s Gate 3 Narrative Reactivity: How Your Choices Alter the Ending',
+      h3Heading: 'Baldur\'s Gate 3 Tactical Combat: Turn-Based Strategy and Synergies',
+      targetKeyword: "Baldur's Gate 3 Review",
+      canonicalSlug: '/review/baldurs-gate-3',
+      searchSnippetCta: 'Explore full ratings before creating your hero.',
+      aeoQuestions: [
+        {
+          question: 'Do you need prior experience with Dungeons & Dragons 5e to play Baldur\'s Gate 3?',
+          answer: 'No tabletop experience is necessary. Baldur\'s Gate 3 automatically calculates all underlying D20 rolls, proficiency modifiers, armor class checks, and spell slots in real time. Tooltips explicitly translate mechanical terms like Advantage, Concentration, and Saving Throws into readable status bars and percentage-based hit chances.',
+          targetIntent: 'Ruleset Complexity & Beginner Accessibility Query'
+        },
+        {
+          question: 'How many distinct narrative endings and branching storylines exist in Baldur\'s Gate 3?',
+          answer: 'Larian Studios confirmed over 17,000 narrative variations based on key story decisions, companion romance outcomes, Mind Flayer tadpole power usage, and final city allegiances. Major branching arcs in Act 2 and Act 3 ensure that alternate character classes, morality choices, and Origin character selections yield entirely unique dialogue branches.',
+          targetIntent: 'Replayability & Narrative Branching Query'
+        }
+      ]
+    }
   },
   {
     id: 'black-myth-wukong',
@@ -209,7 +329,9 @@ The companions—from Neil Newbon's heart-wrenching, theatrical portrayal of Ast
       performance: 8.4,
     },
     coverImage: 'https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/2358720/header.jpg',
+    coverAlt: 'Official poster art of the Destined One holding quarterstaff in Black Myth: Wukong',
     heroBanner: 'https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/2358720/ss_017b2b8e3ad5d37803ae8d2c0b62b3df058bca16.1920x1080.jpg',
+    heroBannerAlt: 'The Destined One clashing weapons against a giant mythological yaoguai boss',
     summary: 'Embark as the Destined One into Journey to the West folklore. Unravel the obscure truth beneath the veil of a glorious legend through fluid staff martial arts.',
     fullReview: `Game Science's debut full-scale action spectacle is an undeniable technical triumph. Harnessing Unreal Engine 5's Nanite and Lumen technology, Black Myth: Wukong renders ancient temples, misty bamboo forests, and snow-draped cliffs with photographic fidelity.
 
@@ -227,7 +349,29 @@ With over 80 distinct boss encounters, the rhythm of combat rarely stagnates. Wh
       'Frame pacing and input latency on PS5 Performance mode before patch'
     ],
     performanceNotes: 'Unreal Engine 5 requires modern GPU power. Frame Generation mode recommended on PC.',
-    playtimeEstimate: '35 – 50 Hours'
+    playtimeEstimate: '35 – 50 Hours',
+    seo: {
+      metaTitle: 'Black Myth Wukong Review: Epic Mythological Combat',
+      metaDescription: 'Comprehensive Black Myth: Wukong review analyzing Unreal Engine 5 visuals, 80+ boss encounters, and staff stances. Check our breakdown before playing.',
+      h1Heading: 'Black Myth Wukong Review: Unreal Engine 5 Combat & Boss Analysis',
+      h2Heading: 'Black Myth Wukong Staff Stances: Mastering Smash, Pillar, and Thrust',
+      h3Heading: 'Black Myth Wukong Yaoguai Bosses: How Difficult Is the Mythological Gauntlet?',
+      targetKeyword: 'Black Myth Wukong Review',
+      canonicalSlug: '/review/black-myth-wukong',
+      searchSnippetCta: 'Check our breakdown before playing.',
+      aeoQuestions: [
+        {
+          question: 'Is Black Myth: Wukong considered a pure Souls-like or a character action RPG?',
+          answer: 'Black Myth: Wukong blends Souls-like stamina discipline and high boss difficulty with fast-paced character action dynamics akin to modern God of War. Importantly, players do not forfeit earned experience (Will) upon dying, and combat focuses on fluid evasion, three staff stance transitions, and magical transformations rather than slow shield parrying.',
+          targetIntent: 'Genre Classification & Difficulty Mechanics Query'
+        },
+        {
+          question: 'How many unique boss encounters are in Black Myth: Wukong?',
+          answer: 'Black Myth: Wukong features over 80 distinct boss encounters divided among Yaoguai Chiefs, Yaoguai Kings, and optional secret mythological deities. Each confrontation features bespoke motion capture, unique attack cadences, and elemental counters without repetitive reskins.',
+          targetIntent: 'Boss Count & Content Variety Query'
+        }
+      ]
+    }
   }
 ];
 
