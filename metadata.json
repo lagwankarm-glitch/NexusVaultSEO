@@ -1,0 +1,6 @@
+{
+  "name": "Nexus Vault - Game Reviews & Community Hub",
+  "description": "Next-gen game review publication featuring critic breakdowns, real-time community scores, and interactive gamer reviews.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
