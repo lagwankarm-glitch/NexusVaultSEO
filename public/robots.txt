@@ -1,0 +1,9 @@
+# Robots.txt for Nexus Vault Game Review Publication
+# Configured for Googlebot, Bingbot, PerplexityBot, GPTBot & Google Search Console
+User-agent: *
+Allow: /
+Allow: /review/
+Allow: /sitemap.xml
+
+# XML Sitemap Location for Google Search Console
+Sitemap: https://nexusvault.app/sitemap.xml

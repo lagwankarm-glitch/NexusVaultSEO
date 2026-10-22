@@ -4,6 +4,7 @@ import { Gamepad2, Sparkles, Github } from 'lucide-react';
 interface NavbarProps {
   onOpenSubmitModal: (gameId?: string) => void;
   onOpenGitHubModal: () => void;
+  onOpenSeoModal: () => void;
   onNavigateSection: (sectionId: string) => void;
   activeSection?: string;
 }
@@ -11,6 +12,7 @@ interface NavbarProps {
 export const Navbar: React.FC<NavbarProps> = ({
   onOpenSubmitModal,
   onOpenGitHubModal,
+  onOpenSeoModal,
   onNavigateSection,
 }) => {
   return (
@@ -52,10 +54,17 @@ export const Navbar: React.FC<NavbarProps> = ({
           </button>
           <button 
             onClick={onOpenGitHubModal}
-            className="flex items-center gap-1.5 text-cyan-400 hover:text-cyan-300 transition-colors whitespace-nowrap shrink-0 py-1"
+            className="flex items-center gap-1.5 text-slate-300 hover:text-white transition-colors whitespace-nowrap shrink-0 py-1"
           >
             <Github className="w-4 h-4" />
             <span>GitHub Guide</span>
+          </button>
+          <button 
+            onClick={onOpenSeoModal}
+            className="flex items-center gap-1.5 text-cyan-400 hover:text-cyan-300 transition-colors whitespace-nowrap shrink-0 py-1 font-semibold"
+          >
+            <span className="w-2 h-2 rounded-full bg-emerald-400 animate-pulse"></span>
+            <span>SEO &amp; AEO Audit</span>
           </button>
         </nav>
 

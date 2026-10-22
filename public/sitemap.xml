@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+        xmlns:image="http://www.google.com/schemas/sitemap-image/1.1">
+  
+  <!-- Homepage -->
+  <url>
+    <loc>https://nexusvault.app/</loc>
+    <lastmod>2026-10-21</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>1.0</priority>
+  </url>
+
+  <!-- Cyberpunk 2077: Phantom Liberty Review -->
+  <url>
+    <loc>https://nexusvault.app/review/cyberpunk-phantom-liberty</loc>
+    <lastmod>2026-10-21</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.9</priority>
+    <image:image>
+      <image:loc>https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/2138330/header.jpg</image:loc>
+      <image:title>Cyberpunk 2077 Review: Phantom Liberty and Dogtown Breakdown</image:title>
+    </image:image>
+  </url>
+
+  <!-- Elden Ring: Shadow of the Erdtree Review -->
+  <url>
+    <loc>https://nexusvault.app/review/elden-ring-erdtree</loc>
+    <lastmod>2026-10-21</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.9</priority>
+    <image:image>
+      <image:loc>https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/2778580/header.jpg</image:loc>
+      <image:title>Elden Ring Erdtree Review: Realm of Shadow Bosses and Map Analysis</image:title>
+    </image:image>
+  </url>
+
+  <!-- Hades II Review -->
+  <url>
+    <loc>https://nexusvault.app/review/hades-2</loc>
+    <lastmod>2026-10-21</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.9</priority>
+    <image:image>
+      <image:loc>https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/1145350/header.jpg</image:loc>
+      <image:title>Hades 2 Review: Melinoe's Witchcraft Mechanics and Underworld Odyssey</image:title>
+    </image:image>
+  </url>
+
+  <!-- HELLDIVERS 2 Review -->
+  <url>
+    <loc>https://nexusvault.app/review/helldivers-2</loc>
+    <lastmod>2026-10-21</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.9</priority>
+    <image:image>
+      <image:loc>https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/553850/header.jpg</image:loc>
+      <image:title>Helldivers 2 Review: Co-op Squad Tactics and Galactic War Verdict</image:title>
+    </image:image>
+  </url>
+
+  <!-- Baldur's Gate 3 Review -->
+  <url>
+    <loc>https://nexusvault.app/review/baldurs-gate-3</loc>
+    <lastmod>2026-10-21</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.9</priority>
+    <image:image>
+      <image:loc>https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/1086940/header.jpg</image:loc>
+      <image:title>Baldur's Gate 3 Review: D and D 5e Mechanics and Companion Storylines</image:title>
+    </image:image>
+  </url>
+
+  <!-- Black Myth: Wukong Review -->
+  <url>
+    <loc>https://nexusvault.app/review/black-myth-wukong</loc>
+    <lastmod>2026-10-21</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.9</priority>
+    <image:image>
+      <image:loc>https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/2358720/header.jpg</image:loc>
+      <image:title>Black Myth Wukong Review: Unreal Engine 5 Combat and Boss Analysis</image:title>
+    </image:image>
+  </url>
+
+</urlset>

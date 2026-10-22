@@ -20,6 +20,7 @@ import { SubmitReviewModal } from './components/SubmitReviewModal';
 import { CommunityFeed } from './components/CommunityFeed';
 import { GitHubModal } from './components/GitHubModal';
 import { GameReviewPage } from './components/GameReviewPage';
+import { SeoCrawlModal } from './components/SeoCrawlModal';
 import { Toast } from './components/Toast';
 
 const STORAGE_KEY_REVIEWS = 'nexus_vault_community_reviews_v1';
@@ -98,6 +99,7 @@ export default function App() {
   const [isSubmitModalOpen, setIsSubmitModalOpen] = useState(false);
   const [submitPreselectedGameId, setSubmitPreselectedGameId] = useState<string | null>(null);
   const [isGitHubModalOpen, setIsGitHubModalOpen] = useState(false);
+  const [isSeoModalOpen, setIsSeoModalOpen] = useState(false);
   const [toastMessage, setToastMessage] = useState<string | null>(null);
 
   // Sync browser back/forward buttons
@@ -280,6 +282,7 @@ export default function App() {
           setIsSubmitModalOpen(true);
         }}
         onOpenGitHubModal={() => setIsGitHubModalOpen(true)}
+        onOpenSeoModal={() => setIsSeoModalOpen(true)}
         onNavigateSection={(sectionId) => {
           if (activeGameReview) {
             handleBackToHome();
@@ -506,10 +509,36 @@ export default function App() {
             <span>· Independent game reviews and community consensus.</span>
           </div>
 
-          <div className="flex items-center gap-4">
+          <div className="flex flex-wrap items-center gap-4">
+            <button
+              onClick={() => setIsSeoModalOpen(true)}
+              className="text-cyan-400 hover:text-cyan-300 font-semibold flex items-center gap-1.5"
+            >
+              <span className="w-1.5 h-1.5 rounded-full bg-emerald-400"></span>
+              <span>SEO &amp; AEO Architecture</span>
+            </button>
+
+            <a
+              href="/robots.txt"
+              target="_blank"
+              rel="noreferrer"
+              className="hover:text-white transition-colors"
+            >
+              robots.txt
+            </a>
+
+            <a
+              href="/sitemap.xml"
+              target="_blank"
+              rel="noreferrer"
+              className="hover:text-white transition-colors"
+            >
+              sitemap.xml
+            </a>
+
             <button
               onClick={() => setIsGitHubModalOpen(true)}
-              className="text-cyan-400 hover:underline flex items-center gap-1"
+              className="text-slate-300 hover:text-white flex items-center gap-1"
             >
               <Github className="w-3.5 h-3.5" />
               <span>Push to GitHub</span>
@@ -526,6 +555,15 @@ export default function App() {
           </div>
         </div>
       </footer>
+
+      {/* SEO & Search Console Audit Modal */}
+      <SeoCrawlModal
+        isOpen={isSeoModalOpen}
+        onClose={() => setIsSeoModalOpen(false)}
+        games={games}
+        onSelectGame={(g) => handleOpenGamePage(g)}
+        onShowToast={(msg) => setToastMessage(msg)}
+      />
 
       {/* Editorial Detail Modal */}
       {editorialModalGame && (
